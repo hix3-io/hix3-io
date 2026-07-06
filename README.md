@@ -1,11 +1,9 @@
-# hix3 — offensive security × AI
+# Hix3 — Cyber and IA for RedTeaming Passionate
 
-Offensive security engineer and penetration tester. I build **security tooling at scale** and
-research where **frontier AI meets offensive security** — autonomous vulnerability discovery,
+Offensive security engineer and penetration tester. I build **security tooling** and
+research with **no bullshit** — autonomous vulnerability discovery,
 rigorous evaluation of AI pentest agents, and high-performance recon.
-
-Everything I ship is grounded in real engineering: from-scratch systems code, reproducible
-methodology, and findings that are *server-confirmed*, never narrated.
+*Spoiler Claude Cli is better than all opensource framework who try to enhance it.*
 
 ---
 
@@ -25,13 +23,14 @@ High-performance passive URL discovery in Go — concurrent worker pools, stream
 
 *Selected private work (available on request): a tri-agent autonomous 0-day discovery harness
 (CVE-replay validated), and an EASM engine that maps 10k+ domains with LLM-assisted ownership
-attribution.*
+attribution.* 
 
 ---
 
 ### 🧭 Focus
 - Autonomous vulnerability discovery & remediation with LLM agents
 - Evaluation / red-teaming of AI systems in security environments
+- All I find fun ! 
 - Reproducible methodology for stochastic, agentic pipelines
 - Responsible disclosure of findings in open-source software
 
