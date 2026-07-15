@@ -17,6 +17,14 @@ context is enriched, and *loopback enrichment is not a free lunch* — it degrad
 orchestrators. Includes a write-up on **benchmarking non-deterministic agents** and proving a
 finding is real. `Python · Docker · evaluation methodology`
 
+**[defensive-prompt-injection-bench](https://github.com/hix3-io/defensive-prompt-injection-bench)**
+Can page content stop an LLM pentest agent? A reproducible lab that injects *defensive prompt
+injection* (HTML, JS, HTTP headers, `robots.txt`, `llms.txt`, API responses) into a target and
+measures whether it makes an autonomous **Claude Code Opus** agent give up. **It can't** — 18 runs,
+**100% flag exfiltration** in every condition; the only blocks come from the provider guardrail, are
+stochastic, and fire *after* exploitation. Confirms the literature: **harden the code, not the text.**
+`Node · claude -p · experimental methodology`
+
 **Offensive tooling** (Go, self-contained, built for real engagements):
 
 - **[recondeps](https://github.com/hix3-io/recondeps)** — JS **supply-chain reconnaissance**: mines a target's JavaScript (incl. source maps, minified bundles, obfuscated `require`s) for npm package references, then verifies claimability to surface **dependency-confusion** candidates.
